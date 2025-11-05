@@ -11,10 +11,10 @@ export function PublicHeader() {
             style={{ width: 50, height: 50 }}
             source={require("../../../assets/logo_coffe_white.png")}
           />
-          <Text className="text-white text-xl tracking-wider font-semibold">
+          <Text className="text-white text-xl tracking-wider font-sans-bold">
             Q - COFFEE
           </Text>
-          <Text className="text-amber-100 mt-2 text-sm tracking-wide">
+          <Text className="text-amber-100 mt-2 text-sm tracking-wide font-sans-ligth">
             Quality Evaluation System
           </Text>
         </View>

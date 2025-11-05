@@ -7,22 +7,6 @@ import { SafeAreaView } from "react-native-safe-area-context";
 export default function DashboardScreen() {
   return (
     <SafeAreaView className="flex-1 bg-amber-50">
-      <LinearGradient
-        colors={["#92400E", "#78350F", "#451A03"]}
-        className="px-6 py-10 rounded-b-3xl shadow-lg"
-      >
-        <View className="flex-row items-center justify-center space-x-3">
-          <View className="bg-white/20 p-3 rounded-2xl">
-            <Coffee color="white" size={36} strokeWidth={2.5} />
-          </View>
-          <Text className="text-white text-2xl font-semibold tracking-wider">
-            Q - COFFEE
-          </Text>
-        </View>
-        <Text className="text-amber-100 text-center mt-2 text-base">
-          Quality Evaluation System
-        </Text>
-      </LinearGradient>
 
       <ScrollView
         className="flex-1 px-6 py-6"
