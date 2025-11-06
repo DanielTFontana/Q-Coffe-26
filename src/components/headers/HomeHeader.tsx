@@ -5,12 +5,12 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 export function HomeHeader() {
     return(
-        <LinearGradient colors={["#92400e", "#78350f", "#451a03"]}>
-            <SafeAreaView className="h-[130px] px-4 flex-row items-center justify-between">
+        <LinearGradient colors={["#d86117", "#702f0a"]}>
+            <SafeAreaView className="h-[110px] px-4 flex-row items-center justify-between mt-2">
 
             <View >
-                <Text className="text-white">Olá</Text>
-                <Text className="text-white text-sm text-b">Daniel</Text>
+                <Text className="text-white font-sans-regular">Olá, 👋</Text>
+                <Text className="text-white text-lg font-sans-regular">Daniel</Text>
             </View>
 
             <TouchableOpacity className="size-12 items-center justify-center">

@@ -5,7 +5,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 export function PublicHeader() {
   return (
-      <LinearGradient colors={["#d86117", "#8d3705", "#4c1c02"]}>
+      <LinearGradient colors={["#d86117", "#702f0a"]}>
         <View className="p-8 items-center justify-center">
           <Image
             style={{ width: 50, height: 50 }}
