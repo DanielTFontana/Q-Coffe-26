@@ -10,6 +10,7 @@ import {
 import { Plus } from "lucide-react-native";
 import { TestedCoffeesList } from "../../../components/profile/evaluator/TestedCoffeesList";
 import { SafeAreaView } from "react-native-safe-area-context";
+import SubCard from "../../../components/profile/SubCard";
 
 const testCoffees = [
   {
@@ -51,15 +52,9 @@ export default function EvaluatorProfile() {
       </View>
 
       <View className="flex-row justify-between px-6 mt-6">
-        <View className="flex-1 bg-white rounded-2xl p-4 mr-2 shadow-sm border border-neutral-100 items-center">
-          <Text className="text-2xl font-sans-bold text-neutral-800">97%</Text>
-          <Text className="text-neutral-500 text-sm">Precisão</Text>
-        </View>
+        <SubCard value={"97%"} subtitle={"Precisão"} />
 
-        <View className="flex-1 bg-white rounded-2xl p-4 ml-2 shadow-sm border border-neutral-100 items-center">
-          <Text className="text-2xl font-sans-bold text-neutral-800">134</Text>
-          <Text className="text-neutral-500 text-sm">Testes realizados</Text>
-        </View>
+        <SubCard value={"100"} subtitle={"Avaliações Realizadas"} />
       </View>
 
       <View className="mt-8 px-6">

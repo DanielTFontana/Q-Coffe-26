@@ -94,7 +94,7 @@ export default function LoginPage({
           </TouchableOpacity>
         </View>
 
-        <Link asChild href={"/evaluator/dashboard"}>
+        <Link asChild href={"/producer/dashboard"}>
           <TouchableOpacity className="bg-amber-600 py-4 rounded-xl shadow-lg mb-6 active:opacity-80">
             <Text className="text-center text-white font-semibold text-base">
               Entrar
